@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <main class="container">
+
+    <div class="title">
+      <p>SPLI</p>
+      <P>TTER</P>
+    </div>
+
+    <div class="calculator">
+
+      <div class="white">
+
+        <div class="white__one">
+          <label for="bill" class="label">Bill</label>
+          <input type="text" class="white__input" id="bill" placeholder="0">
+        </div>
+
+        <div class="white__two">
+
+          <label for="percent">Select Tip %</label>
+            <button class="percent" id="cinco">5%</button>
+            <button class="percent" id="diez">10%</button>
+            <button class="percent" id="quince">15%</button>
+
+            <button class="percent" id="veinticinco">25%</button>
+            <button class="percent" id="cincuenta">50%</button>
+            <input class="custom" placeholder="Custom" id="custom"></input>
+
+        </div> <!-- end white__two -->
+
+        <div class="white__three">
+          <label for="people" class="label">Number of People</label>
+          <input type="text" class="white__input" id="people" placeholder="0">
+        </div>
+
+      </div>  <!-- end white -->
+  
+      <div class="green">
+        <div class="green__one">
+
+          <label for="amount"> 
+            <p>Tip Amount</p> 
+            <p class="span">/ person</p>
+          </label>
+          <input type="text" id="amount" class="one__input" placeholder="$ 0.00">
+
+        </div>
+        <div class="green__two">
+          <label for="total">
+            <p>Total</p> 
+            <p class="span">/ person</p>
+          </label>
+          <input type="text" id="total" class="two__input" placeholder="$ 0.00">
+        </div>
+
+        <div class="green__three">
+          <button id="reset">RESET</button> 
+        </div>
+
+      </div> <!-- end green -->
+
+    </div> <!-- end calculator -->
+
+  </main>  <!-- end container -->
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Francisco Ocoro L</a>.
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
