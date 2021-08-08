@@ -77,9 +77,9 @@ body{
   border-radius:4px;
   padding: 7px;
   text-align: right;
-  cursor: pointer;
 }
 .white__input:hover{
+  cursor: pointer;
   border: 2px solid hsl(172, 67%, 45%);
 }
 .white__input::placeholder{
