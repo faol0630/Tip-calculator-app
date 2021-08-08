@@ -128,17 +128,17 @@ body{
   padding: 30px;
   border-radius: 16px;
 }
-.green label{
+.green #amount1, .green #total1{
   color:hsl(189, 41%, 97%);
   width: 120px;
 }
-.green label p{
+.green #amount1 p, .green #total1 p{
   padding: 0;
   margin: 0;
   font-size: 14px;
   font-weight: bold;
 }
-.green label .span{
+.green #amount1 .span, .green #total1 .span{
   margin: 0;
   padding: 0;
   font-size: 12px;
@@ -245,6 +245,11 @@ footer{
 @media(max-width:791px){
   .white{
     padding: 40px 5px 40px 5px;
+  }
+}
+@media(max-width:791px){
+  .white{
+    padding: 30px 0px 30px 0px;
   }
 }
 @media(max-width:768px){
